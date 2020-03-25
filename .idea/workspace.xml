@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f4b3c4-02c7-41d4-9446-95cb78ab20eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nasi/todolist/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nasi/todolist/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nasi/todolist/mapper/userMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nasi/todolist/mapper/userMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nasi/todolist/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nasi/todolist/controller/HelloController.class" afterDir="false" />
-    </list>
+    <list default="true" id="e4f4b3c4-02c7-41d4-9446-95cb78ab20eb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +140,7 @@
       <workItem from="1584806665944" duration="53000" />
       <workItem from="1584806735188" duration="48000" />
       <workItem from="1584806797672" duration="17383000" />
-      <workItem from="1584888138060" duration="9904000" />
+      <workItem from="1584888138060" duration="10183000" />
     </task>
     <task id="LOCAL-00001" summary="创建springboot项目todolist。">
       <created>1584888225596</created>
@@ -156,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584888225596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建springboot项目todolist。">
+      <created>1585114788059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585114788059</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,12 +180,12 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="620" y="324" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.864@0.0.1536.864" timestamp="1582011809418" />
-    <state x="249" y="0" width="884" height="738" key="CommitChangelistDialog2" timestamp="1584888224833">
+    <state x="249" y="0" width="884" height="738" key="CommitChangelistDialog2" timestamp="1585114787318">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="221" y="0" width="884" height="738" key="CommitChangelistDialog2/0.0.1366.738/-1920.-313.1920.1050@0.0.1366.738" timestamp="1581914704128" />
     <state x="249" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583335254012" />
-    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584888224833" />
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585114787318" />
     <state x="162" y="187" key="FileChooserDialogImpl" timestamp="1584973882455">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -255,6 +255,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1584868120883" />
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1585114792324">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585114792324" />
     <state x="540" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1584888139485">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
