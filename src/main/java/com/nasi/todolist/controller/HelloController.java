@@ -38,7 +38,7 @@ public class HelloController {
     public String index(Model model){
         return "index";
     }
-    @RequestMapping("/login")
+   /* @RequestMapping("/login")
     public String login(Model model){
         return "login";
     }
