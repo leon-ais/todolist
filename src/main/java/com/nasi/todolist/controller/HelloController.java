@@ -20,6 +20,7 @@ import java.util.UUID;
 
 import com.nasi.todolist.mapper.*;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import static com.nasi.todolist.util.Base.MYSUCCESS;
@@ -37,8 +38,29 @@ public class HelloController {
     public String index(Model model){
         return "index";
     }
+    @RequestMapping("/login")
+    public String login(Model model){
+        return "login";
+    }
+    /*@RequestMapping("/login")
+    public String getUser(Model model,
+                        @RequestParam(name = "ID",defaultValue = "") String ID,
+                        @RequestParam(name = "PASSWD",defaultValue = "") String PASSWD
+    )
+    {
+        System.out.println("[I]  inter control"+ID+PASSWD);
 
-    @GetMapping("/hello")
+        User newnuser=usermapper.selectUser(ID,getSha1(PASSWD));
+
+        if(newnuser.PASSWD.equals(PASSWD)){
+            System.out.println("[I]  out control");
+            return "hello";
+        }else{
+            System.out.println("[I]  out control");
+            return "index";
+        }
+    }*/
+    @GetMapping(value = "/hello")
     public String Hello(Model model,
                         @RequestParam(name = "ID",defaultValue = "") String ID,
                         @RequestParam(name = "PASSWD",defaultValue = "") String PASSWD,
@@ -57,14 +79,6 @@ public class HelloController {
         newnuser.PASSWD=getSha1(PASSWD);
 
         usermapper.addUser(newnuser);
-
-      /*  try{
-            addUser(newnuser);
-        }
-        catch(Exception e){
-            System.out.println("[E]  INSERT Failed!");
-        }*/
-
         System.out.println("[I]  out control");
         return "hello";
     }
